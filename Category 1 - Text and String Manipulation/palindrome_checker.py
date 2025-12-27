@@ -1,9 +1,11 @@
+# ==========================
 # Palindrome Checker
+# ==========================
 
 palindrome_string = input("Enter a string: ").lower()
 for i in range(len(palindrome_string) // 2):
     if palindrome_string[i] != \
-         palindrome_string[len(palindrome_string) - 1 - i]:
+            palindrome_string[len(palindrome_string) - 1 - i]:
         print(f'"{palindrome_string}" is not a palindrome.')
         break
     else:

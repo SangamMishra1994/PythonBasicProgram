@@ -1,3 +1,7 @@
+# ==========================
+# Word Counter
+# ==========================
+
 paragraph = input("Enter a paragraph of text: ")
 words = paragraph.split()
 word_count = 0

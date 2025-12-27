@@ -1,3 +1,5 @@
+# Acronym Generator
+
 phrase = input("Enter a phrase to generate its acronym: ")
 words = phrase.split()
 acronym = ""
