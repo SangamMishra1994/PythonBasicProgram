@@ -14,3 +14,4 @@
 10. [x] [Logic And Algorithm](./10_logic_and_algorithms/)
 11. [x] [Enhance String Manipulation](./11_enhance_string_manipulation/)
 12. [x] [Mini System (Class/Object Concept)](./12_mini_system_class_object_concept/)
+13. [x] [Decorator](./13_decorator/)

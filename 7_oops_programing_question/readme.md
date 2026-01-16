@@ -9,3 +9,7 @@
 7. [x] Property Decorator
 8. [x] Inheritance and isinstance() method
 9. [x] Multiple Inheritance
+
+## All the functionality is done in single program.
+
+## All code present in first file i.e 1_basic_class_object.py
