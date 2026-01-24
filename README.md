@@ -15,3 +15,10 @@
 11. [x] [Enhance String Manipulation](./11_enhance_string_manipulation/)
 12. [x] [Mini System (Class/Object Concept)](./12_mini_system_class_object_concept/)
 13. [x] [Decorator](./13_decorator/)
+
+# FastAPI Learning and its Program
+
+## Project chapters
+
+1. [x] [Basic of FastAPI](./fastapi_tutorial/1_chapter_basics/)
+2. [ ] [Python classes as Models](./fastapi_tutorial/2_python_classes_as_module/)
