@@ -21,4 +21,5 @@
 ## Project chapters
 
 1. [x] [Basic Understanding of FastAPI](./fastapi_tutorial/1_chapter_basics/)
-2. [ ] [Python classes as Models](./fastapi_tutorial/2_python_classes_as_module/)
+2. [x] [Python classes as Models](./fastapi_tutorial/2_python_classes_as_module/)
+3. [ ] [Intro: DB integration in fastapi](./fastapi_tutorial/3_db_integration_in_fastapi/)
