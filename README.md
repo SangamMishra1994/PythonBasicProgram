@@ -20,5 +20,5 @@
 
 ## Project chapters
 
-1. [x] [Basic of FastAPI](./fastapi_tutorial/1_chapter_basics/)
+1. [x] [Basic Understanding of FastAPI](./fastapi_tutorial/1_chapter_basics/)
 2. [ ] [Python classes as Models](./fastapi_tutorial/2_python_classes_as_module/)
