@@ -11,11 +11,11 @@ This is a FastAPI backend project built for learning and practice.
 
 ## Setup Instructions
 
-1. [ ] Create class as a model
-2. [ ] Validate Request Body in FastAPI
-3. [ ] Validate Path Params and Query Params
+1. [x] Create class as a model
+2. [x] Validate Request Body in FastAPI
+3. [x] Validate Path Params and Query Params
 4. [ ] HttpException, Response Model and Status Code
-5. 
+5. [ ] Customization - title, version, and description
 
 ## Run Project
 
