@@ -15,7 +15,7 @@ This is a FastAPI backend project built for learning and practice.
 2. [ ] Validate Request Body in FastAPI
 3. [ ] Validate Path Params and Query Params
 4. [ ] HttpException, Response Model and Status Code
-5. 
+5.
 
 ## Run Project
 
