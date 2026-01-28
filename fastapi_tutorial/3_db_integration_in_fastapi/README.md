@@ -11,11 +11,8 @@ This is a FastAPI backend project built for learning and practice.
 
 ## Setup Instructions
 
-1. [x] Create class as a model
-2. [x] Validate Request Body in FastAPI
-3. [x] Validate Path Params and Query Params
-4. [ ] HttpException, Response Model and Status Code
-5. 
+1. [x] Intro: DB integration in fastapi
+2. [ ] Connecting our API to a real database and using ORM tools like SQLModel.
 
 ## Run Project
 
