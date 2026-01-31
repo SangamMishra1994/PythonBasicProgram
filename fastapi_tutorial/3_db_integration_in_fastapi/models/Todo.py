@@ -2,7 +2,7 @@ from datetime import datetime
 from sqlmodel import SQLModel, Field
 
 
-class Todo(SQLModel):
+class Todo(SQLModel, table=True):
     id: int | None = Field(primary_key=True, default=None)
     title: str = Field(min_length=2, max_length=10, nullable=False)
     description: str = Field(min_length=5, max_length=50, nullable=True)
