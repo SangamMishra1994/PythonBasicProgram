@@ -1,6 +1,9 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, status
 from models.Todo import Todo
-from database.db import create_table
+from request_model.TodoRequest import TodoRequest
+from response_model.TodoResponse import TodoResponse
+from database.db import SessionDependency, create_table
+
 
 app = FastAPI(
     title="Fast api Tutorial",
@@ -12,3 +15,22 @@ app = FastAPI(
 @app.on_event("startup")
 def on_startup():
     create_table()
+
+
+@app.get("/")
+async def hello():
+    return "hello"
+
+
+@app.post(
+    "/todo/create", response_model=TodoResponse,
+    status_code=status.HTTP_201_CREATED
+)
+async def create_todo(
+    todoReq: TodoRequest, session: SessionDependency
+):
+    todo = Todo.model_validate(todoReq)
+    session.add(todo)
+    session.commit()
+    session.refresh(todo)
+    return todo
