@@ -13,6 +13,7 @@ This is a FastAPI backend project built for learning and practice.
 
 1. [x] Intro: DB integration in fastapi
 2. [ ] Connecting our API to a real database and using ORM tools like SQLModel.
+3. [ ] Insert Data into DB using REST API
 
 ## Run Project
 
