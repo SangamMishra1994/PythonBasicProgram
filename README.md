@@ -16,6 +16,13 @@
 12. [x] [Mini System (Class/Object Concept)](./12_mini_system_class_object_concept/)
 13. [x] [Decorator](./13_decorator/)
 
+# LeetCode DSA Problems
+
+## Project Chapter
+
+1. [x] [String Array](./14_leetcode_dsa_questions/String%20and%20Array/)
+2. [x] [Two Pointers](./14_leetcode_dsa_questions/Two%20Pointers/)
+
 # FastAPI Learning and its Program
 
 ## Project chapters

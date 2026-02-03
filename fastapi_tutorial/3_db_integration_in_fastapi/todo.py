@@ -62,4 +62,31 @@ async def get_todo_by_id(session: SessionDependency, id: int = Path(ge=1)):
     return todo
 
 
+@app.put("/todo/{id}", response_model=TodoResponse)
+def update_todo(todoRequest: TodoRequest, session: SessionDependency,
+                id: int = Path(ge=1)):
+    todo = session.get(Todo, id)
+    if not todo:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                            detail="Id not found")
+    todo.title = todoRequest.title
+    todo.description = todoRequest.description
+    todo.priority = todoRequest.priority
+    todo.is_completed = todoRequest.is_completed
+    session.add(todo)
+    session.commit()
+    session.refresh(todo)
+    return todo
+
+
+@app.delete("/todo/{id}")
+def delete_todo_by_id(session: SessionDependency, id: int = Path(ge=1)):
+    todo = session.get(Todo, id)
+
+    if not todo:
+        raise HTTPException(status_code=status.HTTP_400_BAD_REQUEST,
+                            detail="Id not Found")
+    session.delete(todo)
+    session.commit()
+    return "Record Deleted Successfully"
 
