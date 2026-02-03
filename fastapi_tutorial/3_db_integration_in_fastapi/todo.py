@@ -24,7 +24,8 @@ async def hello():
 
 
 @app.post(
-    "/todo/create", response_model=TodoResponse, status_code=status.HTTP_201_CREATED
+    "/todo/create", response_model=TodoResponse,
+    status_code=status.HTTP_201_CREATED
 )
 async def create_todo(todoReq: TodoRequest, session: SessionDependency):
     todo = Todo.model_validate(todoReq)
