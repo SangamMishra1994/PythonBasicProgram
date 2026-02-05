@@ -23,6 +23,7 @@
 1. [x] [String Array](./14_leetcode_dsa_questions/String%20and%20Array/)
 2. [x] [Two Pointers](./14_leetcode_dsa_questions/Two%20Pointers/)
 3. [x] [Sliding Window](./14_leetcode_dsa_questions/sliding_windows/)
+4. [x] [Prefix Sum](./14_leetcode_dsa_questions/Prefix%20Sum/)
 
 # FastAPI Learning and its Program
 
