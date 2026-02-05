@@ -5,7 +5,10 @@ from request_model.TodoRequest import TodoRequest
 from response_model.TodoResponse import TodoResponse
 from database.db import SessionDependency
 
-router = APIRouter(prefix="/todo")
+router = APIRouter(
+    prefix="/todo",
+    tags=["Todo"]
+    )
 
 
 @router.get("/")

@@ -1,21 +1,16 @@
-from fastapi import APIRouter, HTTPException, status
+from typing import Annotated
+from fastapi import APIRouter, Depends, HTTPException, status
 from models.User import User
 from response_model.UserResponse import UserResponse
 from database.db import SessionDependency
 from request_model.UserRequest import UserRequest
 from sqlmodel import select
-from passlib.context import CryptContext
+
+from fastapi.security import OAuth2PasswordRequestForm
+from utility import check_user_credentials, hash_password
 
 
-pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
-
-
-# Encrypt user password
-def hash_password(password: str) -> str:
-    return pwd_context.hash(password)
-
-
-router = APIRouter(prefix="/auth")
+router = APIRouter(prefix="/auth", tags=["Auth"])
 
 
 @router.post(
@@ -37,3 +32,21 @@ async def create_user(userReq: UserRequest, session: SessionDependency):
     session.commit()
     session.refresh(user)
     return user
+
+
+@router.post("/login")
+async def login(
+    form_data: Annotated[OAuth2PasswordRequestForm, Depends()],
+    session: SessionDependency,
+):
+    email = form_data.username
+    password = form_data.password
+
+    # Validate credentials email and password
+    authorized_user = await check_user_credentials(email, password, session)
+
+    if not authorized_user:
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED, detail="Wrong Credential"
+        )
+    return "Authorized"
