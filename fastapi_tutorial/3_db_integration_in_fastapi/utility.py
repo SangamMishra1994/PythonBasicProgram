@@ -78,3 +78,4 @@ async def validate_token(token: Annotated[str, Depends(oauth2_bearer)]):
     if subject is None:
         raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
                             detail="unable to authorized")
+    return payload

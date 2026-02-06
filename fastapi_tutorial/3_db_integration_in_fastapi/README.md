@@ -20,15 +20,21 @@ This is a FastAPI backend project built for learning and practice.
 6. [x] Delete the record by Id
 
 ## Implement Authentication and Authorization 
-1. [ ] Implement FastAPI Router
-2. [ ] Create User Model
-3. [ ] Cretae Sign-up Endpoint
-4. [ ] Understand JWT and Login Flow
-5. [ ] Implement Login
-6. [ ] Generate JWT (Access Token)
-7. [ ] Verify JWT (Access Token)
-8. [ ] Secure Todo Endpoints with Authentication
+1. [x] Implement FastAPI Router
+2. [x] Create User Model
+3. [x] Cretae Sign-up Endpoint
+4. [x] Understand JWT and Login Flow
+5. [x] Implement Login
+6. [x] Generate JWT (Access Token)
+7. [x] Verify JWT (Access Token)
+8. [x] Secure Todo Endpoints with Authentication
 9. [ ] Implement change Password Endpoint
+
+
+## Extra in FastApi
+
+1. [ ] Enable CORS in Fastapi
+2. [ ] Dockerize fastapi project
 
 ## Run Project
 
