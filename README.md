@@ -24,6 +24,7 @@
 2. [x] [Two Pointers](./14_leetcode_dsa_questions/Two%20Pointers/)
 3. [x] [Sliding Window](./14_leetcode_dsa_questions/sliding_windows/)
 4. [x] [Prefix Sum](./14_leetcode_dsa_questions/Prefix%20Sum/)
+5. [x] [HashMap and Set](./14_leetcode_dsa_questions/HashMap%20and%20Set/)
 
 # FastAPI Learning and its Program
 
