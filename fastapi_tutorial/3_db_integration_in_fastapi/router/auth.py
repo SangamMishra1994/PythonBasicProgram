@@ -1,13 +1,13 @@
+from datetime import timedelta
 from typing import Annotated
-from fastapi import APIRouter, Depends, HTTPException, status
-from models.User import User
-from response_model.UserResponse import UserResponse
-from database.db import SessionDependency
-from request_model.UserRequest import UserRequest
 from sqlmodel import select
-
+from models.User import User
+from database.db import SessionDependency
+from fastapi import APIRouter, Depends, HTTPException, status
+from response_model.UserResponse import UserResponse
+from request_model.UserRequest import UserRequest
 from fastapi.security import OAuth2PasswordRequestForm
-from utility import check_user_credentials, hash_password
+from utility import check_user_credentials, hash_password, create_jwt_token
 
 
 router = APIRouter(prefix="/auth", tags=["Auth"])
@@ -49,4 +49,12 @@ async def login(
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED, detail="Wrong Credential"
         )
-    return "Authorized"
+
+    # JWT Token generate
+    data = {
+        "sub": authorized_user.email,
+        "id": authorized_user.id,
+        "name": authorized_user.name,
+    }
+    token_dict = await create_jwt_token(data, timedelta(minutes=15))
+    return token_dict
