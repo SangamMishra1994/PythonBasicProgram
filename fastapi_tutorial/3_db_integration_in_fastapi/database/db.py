@@ -10,8 +10,19 @@ load_dotenv()
 USERNAME = os.getenv("DB_USERNAME")
 PASSWORD = os.getenv("DB_PASSWORD")
 
+
+# To run the db locally enable this piece of code
+# Start
+# DB_URL = (
+#     f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@localhost:3306/"
+#     f"fastapi_tutorial"
+# )
+
+# End
+
+# For Docker Use this db connection
 DB_URL = (
-    f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@localhost:3306/"
+    f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@host.docker.internal:3306/"
     f"fastapi_tutorial"
 )
 

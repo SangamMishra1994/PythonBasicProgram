@@ -28,13 +28,13 @@ This is a FastAPI backend project built for learning and practice.
 6. [x] Generate JWT (Access Token)
 7. [x] Verify JWT (Access Token)
 8. [x] Secure Todo Endpoints with Authentication
-9. [ ] Implement change Password Endpoint
+9. [x] Implement change Password Endpoint
 
 
 ## Extra in FastApi
 
-1. [ ] Enable CORS in Fastapi
-2. [ ] Dockerize fastapi project
+1. [x] Enable CORS in Fastapi
+2. [x] Dockerize fastapi project
 
 ## Run Project
 
