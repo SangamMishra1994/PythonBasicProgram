@@ -22,7 +22,7 @@ PASSWORD = os.getenv("DB_PASSWORD")
 
 # For Docker Use this db connection
 DB_URL = (
-    f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@localhost:3306/"
+    f"mysql+mysqlconnector://{USERNAME}:{PASSWORD}@host.docker.internal:3306/"
     f"fastapi_tutorial"
 )
 
