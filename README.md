@@ -25,6 +25,7 @@
 3. [x] [Sliding Window](./14_leetcode_dsa_questions/sliding_windows/)
 4. [x] [Prefix Sum](./14_leetcode_dsa_questions/Prefix%20Sum/)
 5. [x] [HashMap and Set](./14_leetcode_dsa_questions/HashMap%20and%20Set/)
+6. [x] [Stack, Queue and Linked List](./14_leetcode_dsa_questions/6_stack_Queue_LinkedList/)
 
 # Youtube Manager
 
