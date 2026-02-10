@@ -1,4 +1,4 @@
-# BInary Search Tree (DFS and BFS)
+# Binary Search Tree (DFS and BFS)
 
 ## DSA basis question on Leetcode
 
@@ -11,4 +11,12 @@
 5. [ ] Longest ZigZag Path in a Binary Tree
 6. [ ] Lowest Common Ancestor of a Binary Tree
 
-## ## Binary Search Tree - BFS
+## Binary Search Tree - BFS
+
+1. [ ] Binary Tree Right Side View
+2. [ ] Maximum Level Sum of a Binary Tree
+
+## Binary Search Tree
+
+1. [ ] Search in a Binary Search Tree
+2. [ ] Delete Node in a BST
