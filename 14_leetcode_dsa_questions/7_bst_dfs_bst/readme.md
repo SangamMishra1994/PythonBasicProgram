@@ -5,7 +5,7 @@
 ## Binary Search Tree - DFS
 
 1. [x] Maximum Depth of Binary Tree
-2. [ ] Leaf-Similar Trees
+2. [x] Leaf-Similar Trees
 3. [ ] Count Good Nodes in Binary Tree
 4. [ ] Path Sum III
 5. [ ] Longest ZigZag Path in a Binary Tree
