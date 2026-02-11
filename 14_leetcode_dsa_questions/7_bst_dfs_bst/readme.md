@@ -9,11 +9,11 @@
 3. [x] Count Good Nodes in Binary Tree
 4. [x] Path Sum III
 5. [x] Longest ZigZag Path in a Binary Tree
-6. [ ] Lowest Common Ancestor of a Binary Tree
+6. [x] Lowest Common Ancestor of a Binary Tree
 
 ## Binary Search Tree - BFS
 
-1. [ ] Binary Tree Right Side View
+1. [x] Binary Tree Right Side View
 2. [ ] Maximum Level Sum of a Binary Tree
 
 ## Binary Search Tree
