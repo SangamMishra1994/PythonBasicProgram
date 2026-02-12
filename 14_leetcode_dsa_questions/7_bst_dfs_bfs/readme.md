@@ -14,9 +14,9 @@
 ## Binary Search Tree - BFS
 
 1. [x] Binary Tree Right Side View
-2. [ ] Maximum Level Sum of a Binary Tree
+2. [x] Maximum Level Sum of a Binary Tree
 
 ## Binary Search Tree
 
-1. [ ] Search in a Binary Search Tree
-2. [ ] Delete Node in a BST
+1. [x] Search in a Binary Search Tree
+2. [x] Delete Node in a BST
