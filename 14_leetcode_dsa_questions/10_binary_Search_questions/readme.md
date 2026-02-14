@@ -4,7 +4,7 @@
 
 ## Bit Manipulation
 
-1. [ ] Guess Number Higher or Lower
+1. [x] Guess Number Higher or Lower
 2. [ ] Successful Pairs of Spells and Potions
 3. [ ] Find Peak Element
 4. [ ] Koko Eating Bananas
