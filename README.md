@@ -30,6 +30,7 @@
 8. [ ] [Graph (DFS, and BFS)](./14_leetcode_dsa_questions/8_graph_dfs_bfs/)
 9. [x] [Bit manipulation](./14_leetcode_dsa_questions/9_bit_manipulations/)
 10. [x] [Binary Search Questions](./14_leetcode_dsa_questions/10_binary_Search_questions/)
+11. [x] [Monotonic Stack](./14_leetcode_dsa_questions/11_monotonic_stack/)
 
 # Youtube Manager
 

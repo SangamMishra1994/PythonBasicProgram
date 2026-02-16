@@ -1,4 +1,4 @@
-# Bit Manipulation
+# BInary Search Problems
 
 ## DSA basis question on Leetcode
 
