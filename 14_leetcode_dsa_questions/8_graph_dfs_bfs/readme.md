@@ -4,8 +4,8 @@
 
 ## Graph - DFS
 
-1. [ ] Keys and Rooms
-2. [ ] Number of Provinces
+1. [x] Keys and Rooms
+2. [x] Number of Provinces
 3. [ ] Reorder Routes to Make All Paths Lead to the City Zero
 4. [ ] Evaluate Division
 
