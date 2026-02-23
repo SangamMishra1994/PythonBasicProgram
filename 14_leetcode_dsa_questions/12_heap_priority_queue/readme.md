@@ -1,4 +1,4 @@
-# Monotonic Stack
+# Heap/Priority Queue
 
 ## DSA basis question on Leetcode
 

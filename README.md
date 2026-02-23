@@ -27,10 +27,11 @@
 5. [x] [HashMap and Set](./14_leetcode_dsa_questions/HashMap%20and%20Set/)
 6. [x] [Stack, Queue and Linked List](./14_leetcode_dsa_questions/6_stack_Queue_LinkedList/)
 7. [x] [Binary Search Tree (DFS, BFS, and BST)](./14_leetcode_dsa_questions/7_bst_dfs_bst/)
-8. [ ] [Graph (DFS, and BFS)](./14_leetcode_dsa_questions/8_graph_dfs_bfs/)
+8. [x] [Graph (DFS, and BFS)](./14_leetcode_dsa_questions/8_graph_dfs_bfs/)
 9. [x] [Bit manipulation](./14_leetcode_dsa_questions/9_bit_manipulations/)
 10. [x] [Binary Search Questions](./14_leetcode_dsa_questions/10_binary_Search_questions/)
 11. [x] [Monotonic Stack](./14_leetcode_dsa_questions/11_monotonic_stack/)
+12. [x] [Heap/Priority Queue](./14_leetcode_dsa_questions/12_heap_priority_queue/)
 
 # Youtube Manager
 
