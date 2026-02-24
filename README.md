@@ -32,6 +32,7 @@
 10. [x] [Binary Search Questions](./14_leetcode_dsa_questions/10_binary_Search_questions/)
 11. [x] [Monotonic Stack](./14_leetcode_dsa_questions/11_monotonic_stack/)
 12. [x] [Heap/Priority Queue](./14_leetcode_dsa_questions/12_heap_priority_queue/)
+13. [x] [Backtracking problem](./14_leetcode_dsa_questions/13_backtracking/)
 
 # Youtube Manager
 
