@@ -8,4 +8,4 @@
 ## Intervals Questions
 
 1. [x] Non-overlapping intervals
-2. [x] Search suggestions systems
+2. [x] Minimum Number of Arrows to Burst Balloons
