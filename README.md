@@ -34,6 +34,7 @@
 12. [x] [Heap/Priority Queue](./14_leetcode_dsa_questions/12_heap_priority_queue/)
 13. [x] [Backtracking problem](./14_leetcode_dsa_questions/13_backtracking/)
 14. [x] [Dynamic Programming](./14_leetcode_dsa_questions/14_dynamic_programming_1D_multi_dimensional/)
+15. [x] [Trie](./14_leetcode_dsa_questions/15_trie/)
 
 # Youtube Manager
 
