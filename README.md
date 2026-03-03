@@ -36,12 +36,14 @@
 14. [x] [Dynamic Programming](./14_leetcode_dsa_questions/14_dynamic_programming_1D_multi_dimensional/)
 15. [x] [Trie](./14_leetcode_dsa_questions/15_trie/)
 
+##
 # Youtube Manager
 
 ## Build a python application (youtube manager)
 
 1. [x] [Youtube Video Manager](./YoutubeVideoManager/youtube_video_manager/)
 
+##
 # FastAPI Learning and its Program
 
 ## Project chapters
