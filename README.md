@@ -37,6 +37,7 @@
 15. [x] [Trie](./14_leetcode_dsa_questions/15_trie/)
 
 ##
+
 # Youtube Manager
 
 ## Build a python application (youtube manager)
@@ -44,6 +45,7 @@
 1. [x] [Youtube Video Manager](./YoutubeVideoManager/youtube_video_manager/)
 
 ##
+
 # FastAPI Learning and its Program
 
 ## Project chapters

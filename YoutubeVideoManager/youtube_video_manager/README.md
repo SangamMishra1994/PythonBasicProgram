@@ -4,6 +4,6 @@
 
 1. [x] List all the videos
 2. [x] Add a new video
-3. [ ] Update the video timming
-4. [ ] Delete the video
-5. [ ] Exit the Application
+3. [x] Update the video timming
+4. [x] Delete the video
+5. [x] Exit the Application
