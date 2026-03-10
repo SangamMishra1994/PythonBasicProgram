@@ -2,6 +2,7 @@ from fastapi import FastAPI, Body
 
 app = FastAPI()
 
+# Create a TODO list for as a temporary database
 TODOS = [
     {"title": "Task 1", "description": "My Task 1", "is_completed": False},
     {"title": "Task 2", "description": "My Task 2", "is_completed": True},

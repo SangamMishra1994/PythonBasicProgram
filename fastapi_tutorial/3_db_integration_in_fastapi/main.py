@@ -4,7 +4,8 @@ from router.auth import router as auth_router
 from router.todo import router as todo_router
 from router.user import router as user_router
 
-# implement the CORS in the fastapi when we impleemnt the UI in our application
+# implement the CORS in the fastapi
+# when we impleemnt the UI in our application
 # from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(
