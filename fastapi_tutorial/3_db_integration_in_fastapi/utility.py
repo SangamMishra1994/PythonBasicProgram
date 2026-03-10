@@ -52,8 +52,8 @@ async def create_jwt_token(data: dict, expiry_time: timedelta):
 
     to_encode.update({"exp": expire_time})
 
-    access_token = jwt.encode(claims=to_encode, algorithm=JWT_ALGORITHM,
-                              key=JWT_SECRET)
+    access_token = jwt.encode(claims=to_encode,
+                              algorithm=JWT_ALGORITHM, key=JWT_SECRET)
 
     return {"access_token": access_token, "token_type": "bearer"}
 
@@ -63,8 +63,10 @@ def decode_token(token):
         payload = jwt.decode(token, key=JWT_SECRET, algorithms=JWT_ALGORITHM)
         return payload
     except JWTError:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
-                            detail="unable to authorized")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="unable to authorized"
+        )
 
 
 oauth2_bearer = OAuth2PasswordBearer(tokenUrl="/auth/login")
@@ -76,6 +78,8 @@ async def validate_token(token: Annotated[str, Depends(oauth2_bearer)]):
     subject = payload.get("sub")
 
     if subject is None:
-        raise HTTPException(status_code=status.HTTP_401_UNAUTHORIZED,
-                            detail="unable to authorized")
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="unable to authorized"
+        )
     return payload
