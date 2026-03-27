@@ -39,3 +39,22 @@ function1()
 # 10. Create a decorator that requires a user to be “logged in”
 # before running a function.
 # (Simulate a dictionary like: {"user": "Sangam", "logged_in": True})
+def login_required(func):
+    def wrapper(user, *args, **kwargs):
+        if not user.get("logged_in"):
+            return "Access_denied !"
+        return func(user, *args, **kwargs)
+
+    return wrapper
+
+
+@login_required
+def dashboard(user):
+    return f"Welcome {user['name']}"
+
+
+user1 = {"name": "Sangam", "logged_in": True}
+user2 = {"name": "Mishra", "logged_in": False}
+
+print(dashboard(user1))
+print(dashboard(user2))
