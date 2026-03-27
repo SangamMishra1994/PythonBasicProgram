@@ -33,7 +33,7 @@ def calculate_age(year, month, day):
 
 print("Age of the person")
 year = int(input("Enter the year:- "))
-mont = int(input("Enter the month:- "))
+month = int(input("Enter the month:- "))
 day = int(input("Enter the day:- "))
-year, month, day = calculate_age(year, mont, day)
+year, month, day = calculate_age(year, month, day)
 print(f"Years = {year}, month = {month}, days = {day}")
